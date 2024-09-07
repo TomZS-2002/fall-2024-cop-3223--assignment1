@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <math.h>
 
@@ -25,7 +24,7 @@ double calculateDistance()
     double x2 = askForUserInput();
     printf("Input y-value for point 2: ");
     double y2 = askForUserInput();
-    double xdist = x2 - x1,2.0;
+    double xdist = pow(x2 - x1,2.0);
     double ydist = y2 - y1;
     double dist = 1.0;
     

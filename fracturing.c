@@ -37,6 +37,6 @@ double calculateDistance()
 
 int main(int argc, char **argv) {  
     calculateDistance();
-    return 0;
-}
+    return 1;
+} ;
 

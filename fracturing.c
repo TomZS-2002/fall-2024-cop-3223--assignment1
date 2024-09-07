@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
+
 double askForUserInput()
 {
     // This scans the user input, then returns that as a double
